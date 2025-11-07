@@ -3,13 +3,13 @@
     "main": "./index.js",
   "engines" : { 
     "npm" : ">=9.7.2",
-    "node" : ">=20.0.0"
+    "node" : ">=18.x"
     },
     "scripts": {
     "start": "node pair.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys":  "^6.7.18",
+    "@whiskeysockets/baileys":  "github:nstar-y/bail",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
     "pino": "^8.1.0",
